@@ -6,19 +6,16 @@ export type TypePokemon =
 export class Pokemon {
     nom : string;
     numero : number;
-    type1 : TypePokemon;
-    type2? : TypePokemon;
+    types : TypePokemon[];
     description : string;
-    cri? : string;
-    evolution : number;
+    evolution?: number;
     taille : number ;
     poids : number;
 
-    constructor(nom : string, numero: number,type1: TypePokemon,type2 : TypePokemon, description: string, evolution: number, taille : number, poids : number){
+    constructor(nom : string, numero: number,types: TypePokemon[], description: string, evolution: number | undefined , taille : number, poids : number){
         this.nom = nom;
         this.numero = numero;
-        this.type1 = type1;
-        this.type2 = type2;
+        this.types = types;
         this.description = description;
         this.evolution = evolution;
         this.taille = taille;
