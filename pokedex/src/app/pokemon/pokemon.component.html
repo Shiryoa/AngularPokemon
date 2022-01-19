@@ -1,0 +1,8 @@
+<div>
+    <h1>{{poke.nom}}</h1>
+    <h1>N°{{poke.numero}}</h1>
+</div>
+<div>
+    <p>Type(s): <span *ngFor="let type of poke.types">{{type}} </span></p>
+    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" />
+</div>

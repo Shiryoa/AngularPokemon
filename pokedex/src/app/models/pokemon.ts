@@ -11,15 +11,17 @@ export class Pokemon {
     evolution?: number;
     taille : number ;
     poids : number;
+    img : string;
 
-    constructor(nom : string, numero: number,types: TypePokemon[], description: string, evolution: number | undefined , taille : number, poids : number){
+    constructor(nom : string, numero: number,types: TypePokemon[], description: string, evolution: number | undefined , taille : number, poids : number, img: string){
         this.nom = nom;
         this.numero = numero;
         this.types = types;
         this.description = description;
         this.evolution = evolution;
         this.taille = taille;
-        this.poids = poids
+        this.poids = poids;
+        this.img = img;
     }
 
 }

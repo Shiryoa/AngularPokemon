@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
+import { TypePokemon } from '../models/pokemon';
 
 @Component({
   selector: 'app-formulaire',
@@ -6,11 +8,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./formulaire.component.css']
 })
 export class FormulaireComponent implements OnInit {
-  typePokemon
+  nom!: string;
+  types!: string;
+  taille!: number;
+  poids!: number;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  validerForm() {
+    console.log(this.nom)
+  }
 }
