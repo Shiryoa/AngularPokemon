@@ -1,0 +1,22 @@
+a {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+
+  position: absolute;
+  width: 60px;
+  height: 34px;
+  left: 347px;
+  top: 3074px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 122, 0, 0.989101) -20.19%,
+    rgba(255, 255, 255, 0.976481) -1.52%,
+    rgba(247, 118, 0, 0.981909) 41.41%,
+    #ff800c 71.34%,
+    rgba(83, 49, 18, 0.9) 100%
+  );
+  border-radius: 31px;
+}
