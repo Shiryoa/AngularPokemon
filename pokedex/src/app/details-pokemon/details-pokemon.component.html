@@ -1,0 +1,14 @@
+<div class="disposition">
+    <div class="colone">
+        <h1>N°{{bulbizarre.numero}} {{bulbizarre.nom}}</h1>
+        <ul>
+            <li>Type : <span *ngFor="let type of bulbizarre.types">{{type}} </span></li>
+            <li>Taille : {{bulbizarre.taille}} m</li>
+            <li>Poids : {{bulbizarre.poids}} kg</li>
+            <li>{{bulbizarre.description}}</li>
+            <li *ngIf="bulbizarre.evolution">Evolution : {{herbizarre.nom}}</li>
+        </ul>
+    </div>
+    <img [src]="bulbizarre.img">
+</div>
+

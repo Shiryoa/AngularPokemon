@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { ListeComponent } from './liste/liste.component';
 import { FormulaireComponent } from './formulaire/formulaire.component';
 import { FormsModule } from '@angular/forms';
+import { DetailsPokemonComponent } from './details-pokemon/details-pokemon.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListeComponent,
-    FormulaireComponent
+    FormulaireComponent,
+    DetailsPokemonComponent
   ],
   imports: [
     BrowserModule,
