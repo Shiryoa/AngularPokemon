@@ -1,0 +1,17 @@
+img {
+  background-color: white;
+  border-radius: 10px;
+  margin: 1em 0 1em 1em;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 0px;
+}

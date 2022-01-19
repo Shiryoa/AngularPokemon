@@ -8,17 +8,17 @@ import { TypePokemon } from '../models/pokemon';
   styleUrls: ['./formulaire.component.css']
 })
 export class FormulaireComponent implements OnInit {
-  nom!:string;
-  types!:string;
-  taille!:number;
-  poids!:number;
+  nom!: string;
+  types!: string;
+  taille!: number;
+  poids!: number;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  validerForm(){
+  validerForm() {
     console.log(this.nom)
   }
 }

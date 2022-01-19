@@ -7,13 +7,15 @@ import { ListeComponent } from './liste/liste.component';
 import { FormulaireComponent } from './formulaire/formulaire.component';
 import { FormsModule } from '@angular/forms';
 import { DetailsPokemonComponent } from './details-pokemon/details-pokemon.component';
+import { PokemonComponent } from './pokemon/pokemon.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListeComponent,
     FormulaireComponent,
-    DetailsPokemonComponent
+    DetailsPokemonComponent,
+    PokemonComponent
   ],
   imports: [
     BrowserModule,
