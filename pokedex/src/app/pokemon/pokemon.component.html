@@ -4,5 +4,5 @@
 </div>
 <div>
     <p>Type(s): <span *ngFor="let type of poke.types">{{type}} </span></p>
-    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" />
+    <img [src]="poke.sprite" />
 </div>
